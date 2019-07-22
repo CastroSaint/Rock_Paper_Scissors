@@ -1,0 +1,99 @@
+/* body style */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Copperplate, Helvetica;
+    background-color: rgba(214, 202, 202, 0.616);
+    background-size: cover;
+}
+
+/* paragraph style */
+p {
+    color:rgb(29, 29, 124);
+}
+
+/* button style */
+button {
+    outline: none;
+    border: 3px solid red;
+    color: rgb(29, 29, 124);
+    border-radius: .2rem;
+    font-size: 35px;
+    text-align: center;
+    width: 175px;
+    margin: 5px;
+    background-color: rgba(126, 123, 123, 0.616);
+}
+
+/* title style */
+.title {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(29, 29, 124);
+    text-shadow: .5rem red;
+}
+
+/* button position */
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/* button changes colour when hovered over */
+button:hover {
+    background-color: rgb(29, 29, 124);
+    color: red;
+    transform: scale(1.2);
+    text-shadow: 0 0 .5rem black;
+    border-color: red;
+    transition: all .17s ease;
+}
+
+/* player score position */
+#playerscore {
+    margin: 10px;
+}
+
+/* computer score position */
+#compscore {
+    margin: 10px;
+}
+
+.compUp {
+    transform: scale(1.3);
+    transition: all .17s ease;
+}
+
+/* scores positioning */
+#playerscore, #compscore {
+    display: inline-block;
+    color:rgb(29, 29, 124);
+}
+
+/* red score */
+b {
+    color: red;
+}
+
+/* scores style */
+#results {
+    font-size: 22px;
+}
+
+/* buttons style */
+#rockButton, #paperButton, #scissorsbutton {
+    font-size: 45px;
+    margin: 7px;
+}
+
+/* round counter style */
+#currentround {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(29, 29, 124);
+}
+
+/* outcome styling */
+#outcome {
+    text-align: center;
+}
